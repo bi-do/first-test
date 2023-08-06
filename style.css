@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    color: white;
+    height: 100vh;
+    
+    font-family: '휴먼엑스포';
+}
+
+.shadow-black{
+    text-shadow : -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+
+main{
+    background-image: url(./image/—Pngtree—matrix\ digital\ code\ hacker\ background_1593618\ \(1\).png);
+    position: absolute;
+    top : 0 ;
+    right : 0 ; 
+    left: 0;
+}
+
+.main-box{
+    text-align: center;
+    
+    background-image: url(./image/cyber-g913c4960a_1280.jpg);
+    border: 8px solid aqua;
+    border-radius: 5rem;
+    margin-top: 10vh;
+    height: 85vh;
+    padding: 10px
+    
+}
+
+.first-line{
+    margin : 4rem 0;
+    
+}
+
+.title{
+    font-size: 5vw;
+    margin-bottom: 1vh;
+    
+}
+
+
+
+.subtitle{
+    font-size : 4vw;
+    margin-bottom: 1vh;
+}
+
+.lasttitle{
+    color:red;
+    font-size: 2vw;
+    margin-bottom: 1vh;
+}
+
+.second-line{
+    margin-bottom: 1vh;
+}
+
+.updown{
+    font-size: 3vw;
+}
+
+.chance{
+    font-size: 3vw;
+}
+
+@media screen and (max-width : 48rem){
+    .title{
+        font-size : 7vw;
+    }
+    
+    .subtitle{
+        font-size : 5vw;
+    }
+    
+    .lasttitle{
+        font-size: 4vw;
+    }
+    .updown{
+        font-size: 6vw;
+    }
+    
+    .chance{
+        font-size: 6vw;
+    }
+}
+
+.third-line{
+    display: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-input{
+    border : 3px solid white;
+    border-radius: 20px;
+    color : aqua; 
+    background-color: black;
+    width : 250px;
+    height: 8vh;
+    padding: 2vh;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.btn-info{
+    width: 90px;
+    height: 50px;
+    border: 2px solid black;
+    
+}
+
+.btn-danger{
+    max-width: 90px;
+    height: 50px;
+    border: 2px solid black;   
+}
+
+footer{
+    background-color: black;
+    color : white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+}
+
+.foot-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
